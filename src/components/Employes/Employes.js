@@ -194,7 +194,7 @@ const Employes = (props) => {
                     {" "}
                     <p className="D_para">All practitioners</p>
                   </Row>
-                  {employes.map((person, index) => (
+                  { search.length<=0 ? employes.map((person, index) => (
                     <AllEmp
                       key={index}
                       index={index}
@@ -202,7 +202,7 @@ const Employes = (props) => {
                       selectEmploye={selectEmploye}
                       checkedVal={checkSelectAll}
                     />
-                  ))}
+                  )):  <Container className>{searchResult()}</Container>}
                 </Col>
                 <hr className="Line" />
               </Row>
