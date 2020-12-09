@@ -158,8 +158,8 @@ color: #A0B5D9;
 }
 img.img-set.img-fluid.rounded-circle {
   display: inline-flex !important;
-  margin-right: -24px;
-  margin-left:-3px
+    margin-right: -25px;  
+    margin-left: -3px;
 }
 .quote-wrapper{
   background: radial-gradient(
@@ -172,4 +172,3 @@ img.img-set.img-fluid.rounded-circle {
   width: 58%;
   text-align: center;
 }
-
