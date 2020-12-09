@@ -8,37 +8,37 @@ export default function App() {
     {
       id: "1",
       name: 'one',
-      img: 'https://img.icons8.com/officel/2x/person-male.png',
+      img: 'https://homepages.cae.wisc.edu/~ece533/images/boat.png',
       selected: false
     },
     {
       id: "2",
       name: 'two',
-      img: 'https://img.icons8.com/officel/2x/person-male.png',
+      img: 'https://homepages.cae.wisc.edu/~ece533/images/airplane.png',
       selected: false
     },
     {
       id: "3",
       name: 'three',
-      img: 'https://img.icons8.com/officel/2x/person-male.png',
+      img: 'https://homepages.cae.wisc.edu/~ece533/images/girl.png',
       selected: false
     },
     {
       id: "4",
       name: 'four',
-      img: 'https://img.icons8.com/officel/2x/person-male.png',
+      img: 'https://homepages.cae.wisc.edu/~ece533/images/pool.png',
       selected: false
     },
     {
       id: "5",
       name: 'five',
-      img: 'https://img.icons8.com/officel/2x/person-male.png',
+      img: 'https://homepages.cae.wisc.edu/~ece533/images/mountain.png',
       selected: false
     },
     {
       id: "6",
       name: 'six',
-      img: 'https://img.icons8.com/officel/2x/person-male.png',
+      img: 'https://homepages.cae.wisc.edu/~ece533/images/tulips.png',
       selected: false
     }
   ]

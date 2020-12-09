@@ -1,7 +1,7 @@
 import React from 'react'
 import { GoSearch } from 'react-icons/go'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-
+import  AllEmp from './allEmp'
 const SearchEmp = (props) => {
 
     return (

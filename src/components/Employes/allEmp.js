@@ -7,6 +7,7 @@ const AllEmp = (props) => {
     const [checked, setChecked] = React.useState(person.selected);
     React.useEffect(() => {
         setChecked(person.selected);
+        
     }, [checkedVal]);
 
     const changeHandler = () => {
@@ -19,7 +20,7 @@ const AllEmp = (props) => {
         <Row key={JSON.stringify(index)} className="empRow">
             <Col xs={2} className="mb-3 pr-0">
                 <Image
-                    style={{ height: "24px", width: "24px" }}
+                    style={{ height: "26px", width: "26px" }}
                     src={person.img}
                     roundedCircle
                     fluid
